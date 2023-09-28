@@ -1,0 +1,10 @@
+body{
+    background-color: white;
+    color: gray;
+    font-family: Nunito, sans-serif;
+}
+
+a:visited {text-decoration: none; color: gray;}
+a:link{text-decoration: none; color: gray;}
+a:hover{color: gray;}
+a:active{color: gray;}

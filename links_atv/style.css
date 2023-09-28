@@ -1,0 +1,51 @@
+
+body{
+    background-color: gray;
+    font-family: Nunito, sans-serif;
+}
+
+
+img{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+p{font-size: small;}
+
+a {text-decoration: none;}
+
+a:visited {text-decoration: none; color: aliceblue;}
+a:link{text-decoration: none; color: aliceblue}
+a:hover{color: aliceblue}
+a:active{color: aliceblue}
+
+
+.github{
+    background: url(assets/github.png);
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.twitter{
+    background: url(assets/twitter.png);
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.linkedin{
+    background: url(assets/linkedin.png);
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.h4{color:aliceblue}
+
+
+

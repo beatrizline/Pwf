@@ -1,0 +1,10 @@
+body{
+    background-color: #212529;
+    color: #899095;
+    font-family: Nunito, sans-serif;
+}
+
+a:visited {text-decoration: none; color: aliceblue;}
+a:link{text-decoration: none; color: aliceblue}
+a:hover{color: aliceblue}
+a:active{color: aliceblue}
