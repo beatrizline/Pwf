@@ -1,0 +1,44 @@
+body{
+    background-image: url(assets/limbo.jpeg);
+    font-family: sans-serif;
+    color: rgb(113, 113, 113);
+}
+
+h1{
+    text-align: center;
+    background-color: grey;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+   background-image: linear-gradient(to right, rgb(255, 255, 255),grey);
+}
+
+p.um{text-align: center;}
+
+p.dois{text-align: right;}
+
+p.tres{text-align: justify;}
+
+img {
+        width: 200px;
+        height: 200px;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+a:link {
+    color:blue;
+}
+
+a:visited {
+    color:blue;
+}
+
+a:active {
+    color:blue;
+}
+
