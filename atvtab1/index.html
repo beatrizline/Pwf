@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 1</title>
+
+    <style>
+        body{font-family:Arial, Helvetica, sans-serif; background-color:rgb(202, 200, 197)}
+
+        table{
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 400px;
+        }
+
+        h1{text-align: center;}
+
+        td,tr, th{border: 1px solid black;}
+
+        td.central-negrito{text-align: center; font-weight: bold;}
+        
+        .center{text-align: center;}
+
+        .teste{width: 600px;}
+
+        .teste1{height: 250px;}
+
+        .top{vertical-align: top;}
+
+        .bottom{vertical-align: bottom;}
+
+        .dama_branco{
+            background-color: aliceblue;
+        }
+
+        .dama_preto{
+            background-color: black;
+        }
+
+        img{
+        width: 50px;
+        height: 50px;}
+
+        .alterar{padding: 10px;}
+
+        .menor{width: 2px;}
+
+    </style>
+
+</head>
+<body>
+    <h1>Atividade 1 - Tabelas</h1>
+
+    <h3>Questão 1 e 2</h3>
+    <table>
+        <tr>
+            <th>Título
+            <th>Diretor
+            <th>Ano de lançamento
+            <th>Genêro
+            <th>Classificação
+        </tr>
+
+        <tr>
+            <td>Evocando Espirítos</td>
+            <td>Peter Cornwell</td>
+            <td>2009</td>
+            <td>Terror</td>
+            <td>+18</td>
+        </tr>
+
+        <tr>
+            <td>O Universo no Olhar</td>
+            <td>Mike Cahill</td>
+            <td>2014</td>
+            <td>Romance</td>
+            <td>+18</td>
+        </tr>
+
+        <tr>
+            <td>Uma Questão de Tempo</td>
+            <td>Richard Curtis</td>
+            <td>2013</td>
+            <td>Romance</td>
+            <td>+12</td>
+        </tr>
+
+        <tr>
+            <td>O Vento Levou</td>
+            <td>Victor Fleming</td>
+            <td>1940</td>
+            <td>Romance</td>
+            <td>Livre</td>
+        </tr>
+            
+        <tr>
+            <td>O Exorcista</td>
+            <td>William Friedkin</td>
+            <td>1974</td>
+            <td>Terror</td>
+            <td>+18</td>
+        </tr>
+
+    </table>
+
+    <h3>Questão 3</h3>
+    <table>
+        <tr>
+            <th rowspan="2">Alimento
+            <th>Calorias
+            <th>Proteínas
+            <th>Carboidratos
+            <th>Gorduras
+            </tr>
+            
+        <tr>
+            <th>kcal
+            <th>g
+            <th>g
+            <th>g
+        </tr>
+
+        <tr>
+            <td>Maçã</td>
+            <td class="center">52</td>
+            <td class="center">0,3</td>
+            <td class="center">13,8</td>
+            <td class="center">0,2</td>
+        </tr>
+    
+        <tr>
+            <td>Cenoura</td>
+            <td class="center">41</td>
+            <td class="center">0,9</td>
+            <td class="center">9,6</td>
+            <td class="center">0,2</td>
+            </tr>
+    
+    </table>
+    
+    
+    <h3>Questão 4</h3>
+    <table class="teste">
+        <tr>
+            <th colspan="2">Dados Pessoais</td>
+            <th colspan="4" >Informações de Contato</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4">Nome Completo</td>
+            <td rowspan="4">Idade</td>
+            <th>Telefone
+            <th>Email
+            <th>Endereço
+        </tr>
+
+        <tr>
+            <td>(11)1234-5678</td>
+            <td>exemplo@exemplo.com</td>
+            <td rowspan="3">Rua Exemplo, 123</td>
+        </tr>
+            
+        <tr>
+            <td>(11)1234-5678</td>
+            <td>exemplo@exemplo2.com</td>
+        </tr>
+            
+            
+        <tr>
+            <td>(11)1234-5678</td>
+            <td>exemplo@exemplo3.com</td>
+        </tr>
+        
+    </table>
+
+    <h3>Questão 5</h3>
+    <table class="teste1">
+        <tr>
+            <th>Nome
+            <th>Sobrenome
+            <th>Idade
+            <th>Altura
+        </tr>
+
+        <tr>
+            <td>João</td>
+            <td>Silva</td>
+            <td>25</td>
+            <td class="top">1,90</td>
+        </tr>
+
+        <tr>
+            <td>Lucas</td>
+            <td>Pereira</td>
+            <td>35</td>
+            <td>1,70</td>
+        </tr>
+
+        <tr>
+            <td>Camila</td>
+            <td>Santos</td>
+            <td>28</td>
+            <td class="bottom">1,50</td>
+        </tr>
+            
+    </table>
+
+    <h3>Questão 7 e 8</h3>
+    <table>
+        <tr>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+        </tr>
+
+        <tr>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+        </tr>
+
+        <tr>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/pretafundobranco.png"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+        </tr>
+
+        <tr>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+        </tr>
+
+        <tr>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/fundopreto.jpg"></td>
+        </tr>
+
+        <tr>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+        </tr>        
+
+        <tr>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+        </tr>
+
+        <tr>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+            <td class="dama_preto"><img src="assets/brancafundopreto.png"></td>
+            <td class="dama_branco"><img src="assets/fundobranco.jpg"></td>
+        </tr>     
+    </table>
+
+
+    <h3>Questão 9</h3>
+    <table class="menor">
+        <tr>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+        </tr>
+
+        <tr>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+        </tr>
+
+        <tr>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+        </tr>
+
+        <tr>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+        </tr>
+
+        <tr>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+        </tr>
+
+        <tr>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+        </tr>
+
+        <tr>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+        </tr>
+
+        <tr>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+        </tr>
+
+        <tr>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+        </tr>
+
+        <tr>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+            <td><img src="assets/fundopreto.jpg"></td>
+            <td><img src="assets/fundobranco.jpg"></td>
+        </tr>
+
+    </table>
+
+
+
+
+
+</body>
+</html>
