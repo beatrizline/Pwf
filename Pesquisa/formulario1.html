@@ -1,0 +1,152 @@
+<!--MIRELLE BEATRIZ DE SOUSA FERREIRA 2023111MTDS0031-->
+<!--IRENE MARIA LOPES DA COSTA 2023111MTDS0052-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa Formulário</title>
+    <style>
+        body{font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-color: thistle;}
+
+        h1{text-align: center;}
+
+    </style>
+</head>
+<body>
+    <h1>IFPI 2023-11/09</h1>
+    <fieldset>
+        <legend>Isso aqui é um teste de formulário - Estudo</legend>
+        <h4>Entrada de texto</h3>
+        <input type="text" id="comment" name="comment" value="Digite seu texto aqui" />
+        
+        <h4>Password</h4>
+        <p><input type="password" id="pwd" name="pwd"/></p>
+
+
+        <h4>Hidden</h4>
+        <input 
+        type="hidden" 
+        id="timestamp" 
+        name="timestamp" 
+        value="1286705410" />
+
+        <h4>Caixa de seleção</h4>
+        <input type="checkbox" id="questionOne" name="subscribe" value="yes" />
+    </fieldset> 
+
+    <h3>Outro exemplo</h3>
+
+    <fieldset>
+        <legend>Escolha todos os vegetais que você gosta</legend>
+        <ul>
+          <li>
+            <label for="cenoura">Cenoura</label>
+            <input
+              type="checkbox"
+              id="cenoura"
+              name="vegetal"
+              value="cenoura" />
+          </li>
+
+          <li>
+            <label for="ervilhas">Ervilhas</label>
+            <input 
+            type="checkbox" 
+            id="peas" 
+            name="vegetable" 
+            value="peas" />
+          </li>
+          <li>
+
+            <label for="repolho">Repolho</label>
+            <input 
+            type="checkbox" 
+            id="cabbage" 
+            name="vegetable" 
+            value="cabbage" />
+          </li>
+        </ul>
+      </fieldset>
+      
+      <br>
+      <fieldset>
+        <legend>Exemplos Restantes</legend>
+
+        <input type="radio" id="soup" name="escolhaconjunta" value="soup" />
+        <input type="radio" id="outro" name="escolhaconjunta" value="soup" />
+        <br>
+        <input type="radio" id="outro" name="escolhaseparada" value="soup" />
+        <input type="radio" id="outro" name="ef" value="soup" />
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Qual a sua comida preferida?</legend>
+        <ul>
+          <li>
+            <label for="soup">Sopa</label>
+            <input type="radio" id="soup" name="meal" value="soup" />
+          </li>
+          <li>
+            <label for="curry">Curry</label>
+            <input type="radio" id="curry" name="meal" value="curry" />
+          </li>
+          <li>
+            <label for="pizza">Pizza</label>
+            <input type="radio" id="pizza" name="meal" value="pizza" />
+          </li>
+        </ul>
+      </fieldset>
+      
+      <h4>Botões Reais</h4>
+
+      <fieldset>
+        <legend>DEMONSTRAÇÃO</legend>
+        <input type="submit" value="Submit this form" />
+            <input type="reset" value="Reset this form" />
+            <input type="button" value="Do Nothing without JavaScript" />
+
+            <br>
+            <button type="submit">Submit this form</button>
+            <button type="reset">Reset this form</button>
+            <button type="button">Do Nothing without JavaScript</button>
+      
+            <br>
+            <br>
+
+            <button type="submit">This is a <strong>submit button</strong></button>
+
+            <input type="submit" value="This is a submit button" />
+
+            <br>
+            <br>
+
+            <button type="submit">This is a <strong>submit button</strong></button>
+            <input type="submit" value="This is a submit button" />
+
+            <button type="reset">This is a <strong>reset button</strong></button>
+            <input type="reset" value="This is a reset button" />
+
+            
+            <button type="button">This is an <strong>anonymous button</strong></button>
+            <input type="button" value="This is an anonymous button" />
+            
+            <br>
+            <br>
+
+            <input type="image" alt="Click me!" src="assets/download20230906200344.png" width="50px" height="50px" />
+            <br>
+            <input type="file" name="file" id="file" accept="image/*" multiple />
+            <br>
+            <input type="file" accept="image/*;capture=camera" />
+            <input type="file" accept="video/*;capture=camcorder" />
+            <input type="file" accept="audio/*;capture=microphone" />
+
+
+
+        </fieldset>
+
+</body>
+</html>
